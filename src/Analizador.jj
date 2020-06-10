@@ -54,7 +54,7 @@ PARSER_END(AnalizadorEjemplo)
 void Inicio() :
 {}
 {
-  "A"<EOF>
+  ("A"|"E")+<EOF>
 }
 
 

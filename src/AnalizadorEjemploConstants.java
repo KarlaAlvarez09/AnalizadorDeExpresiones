@@ -16,6 +16,7 @@ public interface AnalizadorEjemploConstants {
   String[] tokenImage = {
     "<EOF>",
     "\"A\"",
+    "\"E\"",
   };
 
 }
